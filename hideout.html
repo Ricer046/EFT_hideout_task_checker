@@ -20,7 +20,7 @@
     }
     </style>
 
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/style.css">
 
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -208,7 +208,7 @@ const item_name_map = {
 }
 
 
-fetch("/static/hideout.json")
+fetch("/hideout.json")
   .then(res => res.json())
   .then(data => {
     renderFilters(data);
@@ -365,7 +365,7 @@ function renderDetails(data) {
                 li.dataset.amount = amount;
 
                 const jp = item_name_map[item]?.name || item;
-                const img = item_name_map[item]?.img || "/static/noimage.png";
+                const img = item_name_map[item]?.img || "/noimage.png";
                 
                 li.innerHTML = `
                     <img src="${img}" class="item-icon">
@@ -526,7 +526,7 @@ Object.entries(itemTotals).forEach(([name, data]) => {
     const jpName = item_name_map[name]?.name || name;
 
     // 画像（なければ noimage.png）
-    const imgUrl = item_name_map[name]?.img || "/static/noimage.png";
+    const imgUrl = item_name_map[name]?.img || "/noimage.png";
 
     // カードUI
     li.innerHTML = `
