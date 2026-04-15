@@ -1,0 +1,5228 @@
+{ 
+    "Prapor": [
+        {
+            "task_id": "prapor_001",
+            "task": {
+                "name": "Shooting Cans",
+                "types": ["location", "kill"]
+            },
+            "maps": ["Ground Zero"],
+            "requires": [],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_002",
+            "task": {
+                "name": "Debut",
+                "types": ["item", "kill"]
+            },
+            "maps": [],
+            "requires": ["Shooting Cans"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_003",
+            "task": {
+                "name": "Luxurious Life",
+                "types": ["task_item"]
+            },
+            "maps": ["Ground Zero"],
+            "requires": ["Debut"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_004",
+            "task": {
+                "name": "Properties All Around",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Glory to CPSU - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_005",
+            "task": {
+                "name": "Search Misson",
+                "types": ["location"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Debut"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_006",
+            "task": {
+                "name": "Background Check",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Luxurious Life"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_007",
+            "task": {
+                "name": "Shootout Picnic",
+                "types": ["kill"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Background Check"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_008",
+            "task": {
+                "name": "Delivery From the Past",
+                "types": ["task_item", "place"]
+            },
+            "maps": ["Customs", "Factory"],
+            "requires": ["Background Check"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_009",
+            "task": {
+                "name": "BP Depot",
+                "types": ["place"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Delivery From the Past"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_010",
+            "task": {
+                "name": "The Bunker - Part 1",
+                "types": ["location"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["BP Depot"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_011",
+            "task": {
+                "name": "The Bunker - Part 2",
+                "types": ["location"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["The Bunker - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_012",
+            "task": {
+                "name": "Bad Rep Evidence",
+                "types": ["task_item", "item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["BP Depot"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_013",
+            "task": {
+                "name": "Ice Cream Cones",
+                "types": ["item"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Bad Rep Evidence"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_014",
+            "task": {
+                "name": "No Place for Renegades",
+                "types": ["kill"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["The Bunker - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_015",
+            "task": {
+                "name": "Documents",
+                "types": ["task_item"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["No Place for Renegades"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_016",
+            "task": {
+                "name": "Postman Pat - Part 1",
+                "types": ["task_item"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Ice Cream Cones"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_017",
+            "task": {
+                "name": "Shaking up the Teller",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Ice Cream Cones"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_018",
+            "task": {
+                "name": "The Punisher - Part 1",
+                "types": ["kill"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Shaking up the Teller"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_019",
+            "task": {
+                "name": "The Punisher - Part 2",
+                "types": ["item", "kill"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["The Punisher - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_020",
+            "task": {
+                "name": "The Punisher - Part 3",
+                "types": ["kill"]
+            },
+            "maps": ["Customs"],
+            "requires": ["The Punisher - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_021",
+            "task": {
+                "name": "The Punisher - Part 4",
+                "types": ["item", "kill"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["The Punisher - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_022",
+            "task": {
+                "name": "The Punisher - Part 5",
+                "types": ["item", "kill"]
+            },
+            "maps": [],
+            "requires": ["The Punisher - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_023",
+            "task": {
+                "name": "The Punisher - Part 6",
+                "types": ["item", "kill"]
+            },
+            "maps": [],
+            "requires": ["The Punisher - Part 5"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_024",
+            "task": {
+                "name": "Anesthesia",
+                "types": ["place"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Shaking up the Teller"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_025",
+            "task": {
+                "name": "Grenadier",
+                "types": ["kill"]
+            },
+            "maps": [],
+            "requires": ["Shooting Cans"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_026",
+            "task": {
+                "name": "Test Drive - Part 1",
+                "types": ["kill"]
+            },
+            "maps": [],
+            "requires": ["Shooting Cans"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_027",
+            "task": {
+                "name": "Test Drive - Part 2",
+                "types": ["kill"]
+            },
+            "maps": ["Street of Tarkov", "Ground Zero", "Interchange"],
+            "requires": ["Test Drive - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_028",
+            "task": {
+                "name": "Test Drive - Part 3",
+                "types": ["kill"]
+            },
+            "maps": ["Lighthouse", "Reserve", "Customs"],
+            "requires": ["Test Drive - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_029",
+            "task": {
+                "name": "Test Drive - Part 4",
+                "types": ["kill"]
+            },
+            "maps": ["Shoreline", "Woods", "Interchange"],
+            "requires": ["Test Drive - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_030",
+            "task": {
+                "name": "Test Drive - Part 5",
+                "types": ["kill"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Test Drive - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_031",
+            "task": {
+                "name": "Test Drive - Part 6",
+                "types": ["kill"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Test Drive - Part 5"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_032",
+            "task": {
+                "name": "Perfect Mediator",
+                "types": ["progression"]
+            },
+            "maps": [],
+            "requires": ["Shaking up the Teller"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_033",
+            "task": {
+                "name": "Belka and Strelka",
+                "types": ["exit"]
+            },
+            "maps": ["Customs"],
+            "requires": ["BP Depot"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_034",
+            "task": {
+                "name": "Polikhim Hobo",
+                "types": ["kill"]
+            },
+            "maps": ["Customs"],
+            "requires": [],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_035",
+            "task": {
+                "name": "Regulated Materials",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Polikhim Hobo"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_036",
+            "task": {
+                "name": "Big Customer",
+                "types": ["place"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Chemical - Part 3"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_037",
+            "task": {
+                "name": "Capturing Outposts",
+                "types": ["kill"]
+            },
+            "maps": ["Customs", "Woods", "Shoreline"],
+            "requires": ["The Punisher - Part 6"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_038",
+            "task": {
+                "name": "Intimidator",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Punisher - Part 6"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_039",
+            "task": {
+                "name": "Escort",
+                "types": ["kill"]
+            },
+            "maps": ["Factory", "Customs", "Shoreline", "Reserve", "Woods", "Interchange", "The Lab", "Ground Zero"],
+            "requires": ["The Punisher - Part 6"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_040",
+            "task": {
+                "name": "Easy Job - Part 1",
+                "types": ["place"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["The Punisher - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_041",
+            "task": {
+                "name": "Easy Job - Part 2",
+                "types": ["kill"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Easy Job - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_042",
+            "task": {
+                "name": "Our Own Land",
+                "types": ["item", "kill"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["The Punisher - Part 6"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_043",
+            "task": {
+                "name": "Reconnaissance",
+                "types": ["location"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Easy Job - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_044",
+            "task": {
+                "name": "You've Got Mail",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Postman Pat - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_045",
+            "task": {
+                "name": "Glory to CPSU - Part 1",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["You've Got Mail"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_046",
+            "task": {
+                "name": "Glory to CPSU - Part 2",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Glory to CPSU - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_047",
+            "task": {
+                "name": "Best Job in the World",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Kings of the Rooftops", "The Punisher - Part 6"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_048",
+            "task": {
+                "name": "Kings of the Rooftops",
+                "types": ["kill"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["The Punisher - Part 4"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_049",
+            "task": {
+                "name": "Green Corridor",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Spa Tour - Part 7"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_050",
+            "task": {
+                "name": "Gendarmerie - Mall Cop",
+                "types": ["kill"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["The Punisher - Part 6"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_051",
+            "task": {
+                "name": "Gendarmerie - Tickets, Please",
+                "types": ["kill"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Gendarmerie - Mall Cop"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_052",
+            "task": {
+                "name": "Gendarmerie - District Patrol",
+                "types": ["kill"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Gendarmerie - Tickets, Please"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_053",
+            "task": {
+                "name": "The Good Times - Part 1",
+                "types": ["kill"]
+            },
+            "maps": ["Factory"],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_054",
+            "task": {
+                "name": "The Good Times - Part 2",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Airmail"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_055",
+            "task": {
+                "name": "Viewer",
+                "types": ["place"]
+            },
+            "maps": ["Woods", "Shoreline", "Factory"],
+            "requires": ["Minute of Fame"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_056",
+            "task": {
+                "name": "Hell on Earth - Part 1",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["The Good Times - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_057",
+            "task": {
+                "name": "Hell on Earth - Part 2",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Hell on Earth - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_058",
+            "task": {
+                "name": "Possessor",
+                "types": ["task_item"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Postman Pat - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_059",
+            "task": {
+                "name": "Special Comms",
+                "types": ["Transit", "place"]
+            },
+            "maps": ["Woods", "Reserve"],
+            "requires": ["Documents"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_060",
+            "task": {
+                "name": "Shipping Delay - Part 1",
+                "types": ["task_item"]
+            },
+            "maps": ["Woods"],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_061",
+            "task": {
+                "name": "Forge a Friendship",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Hot Wheels", "Natural Exchange"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_062",
+            "task": {
+                "name": "Half Empty",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Forge a Friendship"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_063",
+            "task": {
+                "name": "Stick in the Wheel",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Half Empty"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_064",
+            "task": {
+                "name": "The Art of Explosion",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Grenadier"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "prapor_065",
+            "task": {
+                "name": "No Questions Asked",
+                "types": ["item"]
+            },
+            "maps": [],
+            "requires": ["The Punisher - Part 6"],
+            "kappa": false,
+            "link": ""
+        }
+    ],
+    "Therapist": [
+        {
+            "task_id": "therapist_001",
+            "task": {
+                "name": "First in Line",
+                "types": ["location", "item"]
+            },
+            "maps": ["Ground Zero"],
+            "requires": [],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_002",
+            "task": {
+                "name": "Shortage",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["First in Line"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_003",
+            "task": {
+                "name": "Operation Aquarius - Part 1",
+                "types": ["location"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Shortage"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_004",
+            "task": {
+                "name": "Operation Aquarius - Part 2",
+                "types": ["kill"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Operation Aquarius - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_005",
+            "task": {
+                "name": "Sanitary Standards - Part 1",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Shortage"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_006",
+            "task": {
+                "name": "Sanitary Standards - Part 2",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Sanitary Standards - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_007",
+            "task": {
+                "name": "Painkiller",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Sanitary Standards - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_008",
+            "task": {
+                "name": "Pharmacist",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Painkiller"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_009",
+            "task": {
+                "name": "Car Repair",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Pharmacist"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_010",
+            "task": {
+                "name": "Disease History",
+                "types": ["task_item"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Pharmacist"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_011",
+            "task": {
+                "name": "Supply Plans",
+                "types": ["task_item"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Pharmacist"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_012",
+            "task": {
+                "name": "Health Care Privacy - Part 1",
+                "types": ["place"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Pharmacist"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_013",
+            "task": {
+                "name": "Health Care Privacy - Part 2",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Health Care Privacy - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_014",
+            "task": {
+                "name": "Health Care Privacy - Part 3",
+                "types": ["task_item"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Health Care Privacy - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_015",
+            "task": {
+                "name": "Health Care Privacy - Part 4",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": ["Health Care Privacy - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_016",
+            "task": {
+                "name": "An Apple a Day Keeps the Doctor Away",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Health Care Privacy - Part 4"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_017",
+            "task": {
+                "name": "Health Care Privacy - Part 5",
+                "types": ["place"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Health Care Privacy - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_018",
+            "task": {
+                "name": "Health Care Privacy - Part 6",
+                "types": ["task_item"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Health Care Privacy - Part 5"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_019",
+            "task": {
+                "name": "Athlete",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": ["Health Care Privacy - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_020",
+            "task": {
+                "name": "Private Clinic",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Health Care Privacy - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_021",
+            "task": {
+                "name": "Decontamination Service",
+                "types": ["kill"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Health Care Privacy - Part 5", "Private Clinic"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_022",
+            "task": {
+                "name": "General Wares",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Pharmacist"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_023",
+            "task": {
+                "name": "Colleagues - Part 1",
+                "types": ["location"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["General Wares"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_024",
+            "task": {
+                "name": "Colleagues - Part 2",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Colleagues - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_025",
+            "task": {
+                "name": "Colleagues - Part 3",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Colleagues - Part 2", "Rigged Game", "Chemistry Closet"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_026",
+            "task": {
+                "name": "Postman Pat - Part 2",
+                "types": ["item"]
+            },
+            "maps": ["Factory"],
+            "requires": [],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_027",
+            "task": {
+                "name": "Out of Curiosity",
+                "types": ["place"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Chemical - Part 3"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_028",
+            "task": {
+                "name": "This Tape Sucks",
+                "types": ["task_item"]
+            },
+            "maps": ["The Labyrinth"],
+            "requires": ["Offensive Reconnaissance"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_029",
+            "task": {
+                "name": "Crisis",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Athlete"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_030",
+            "task": {
+                "name": "Seaside Vacation",
+                "types": ["task_item"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Pharmacist"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_031",
+            "task": {
+                "name": "Lost Contact",
+                "types": ["location"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Health Care Privacy - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_032",
+            "task": {
+                "name": "Population Census",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Pharmacist"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_033",
+            "task": {
+                "name": "Dangerous Road",
+                "types": ["exit"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Supply Plans", "Kind of Sabotage"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_034",
+            "task": {
+                "name": "Urban Medicine",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Population Census"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_035",
+            "task": {
+                "name": "Drug Trafficking",
+                "types": ["place"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Lost Contact"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_036",
+            "task": {
+                "name": "Pets Won't Need It - Part 1",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Population Census"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_037",
+            "task": {
+                "name": "Pets Won't Need It - Part 2",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Pets Won't Need It - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_038",
+            "task": {
+                "name": "Ambulances Again",
+                "types": ["task_item", "exit"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Urban Medicine", "Cease Fire!"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_039",
+            "task": {
+                "name": "Shipment Tracking",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Abandoned Cargo"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_040",
+            "task": {
+                "name": "Closer to the People",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Shipment Tracking"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_041",
+            "task": {
+                "name": "Abandoned Cargo",
+                "types": ["place"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Seaside Vacation"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_042",
+            "task": {
+                "name": "All Is Revealed",
+                "types": ["task_item"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Capacity Check"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_043",
+            "task": {
+                "name": "A Healthy Alternative",
+                "types": ["task_item"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Overpopulation"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_044",
+            "task": {
+                "name": "Quality Standard",
+                "types": ["task_item"]
+            },
+            "maps": ["The Lab"],
+            "requires": ["The Good Times - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_045",
+            "task": {
+                "name": "Thirsty - Echo",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Thirsty - Delivery"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_046",
+            "task": {
+                "name": "Thirsty - Secrets",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Thirsty - Echo"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "therapist_047",
+            "task": {
+                "name": "Beneath The Streets",
+                "types": ["Transit","location"]
+            },
+            "maps": ["The Lab", "Street of Tarkov"],
+            "requires": ["Pets Won't Need It - Part 2"],
+            "kappa": false,
+            "link": ""
+        }
+    ],
+    "Fence": [
+        {
+            "task_id": "fence_001",
+            "task": {
+                "name": "Is This a Reference?",
+                "types": ["place"]
+            },
+            "maps": ["Street of Tarkov", "Ground Zero", "Lighthouse", "Reserve", "Customs", "Factory", "Woods", "Shoreline"],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "fence_002",
+            "task": {
+                "name": "Collector",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": [],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "fence_003",
+            "task": {
+                "name": "The Choice",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["The Punisher - Part 6"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "fence_004",
+            "task": {
+                "name": "Between Two Fires",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Against the Conscience - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "fence_005",
+            "task": {
+                "name": "Establish Contact",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "fence_006",
+            "task": {
+                "name": "Friend Among Strangers",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Establish Contact"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "fence_007",
+            "task": {
+                "name": "Immunity",
+                "types": ["exit"]
+            },
+            "maps":[],
+            "requires": ["Friend Among Strangers"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "fence_008",
+            "task": {
+                "name": "Small Business - Part 1",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Immunity"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "fence_009",
+            "task": {
+                "name": "Small Business - Part 2",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Small Business - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "fence_010",
+            "task": {
+                "name": "Small Business - Part 3",
+                "types": ["place"]
+            },
+            "maps": ["Shoreline", "Woods"],
+            "requires": ["Small Business - Part 2"],
+            "kappa": false,
+            "link": ""
+        }
+    ],
+    "Skier": [
+        {
+            "task_id": "Skier_001",
+            "task": {
+                "name": "Burning Rubber",
+                "types": ["exit"]
+            },
+            "maps": ["Ground Zero"],
+            "requires": [],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_002",
+            "task": {
+                "name": "Supplier",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Burning Rubber"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_003",
+            "task": {
+                "name": "The Extortionist",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Supplier"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_004",
+            "task": {
+                "name": "Stirrup",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Supplier"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_005",
+            "task": {
+                "name": "What’s on the Flash Drive?",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["The Extortionist"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_006",
+            "task": {
+                "name": "Golden Swag",
+                "types": ["task_item", "place"]
+            },
+            "maps": ["Customs"],
+            "requires": ["What’s on the Flash Drive?"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_007",
+            "task": {
+                "name": "Chemical - Part 1",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Golden Swag"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_008",
+            "task": {
+                "name": "Chemical - Part 2",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Chemical - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_009",
+            "task": {
+                "name": "Chemical - Part 3",
+                "types": ["task_item"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Chemical - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_010",
+            "task": {
+                "name": "Chemical - Part 4",
+                "types": ["place"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Chemical - Part 3"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_011",
+            "task": {
+                "name": "Vitamins - Part 1",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline", "Interchange"],
+            "requires": ["Chemical - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_012",
+            "task": {
+                "name": "Vitamins - Part 2",
+                "types": ["item"]
+            },
+            "maps": ["Any"],
+            "requires": ["Vitamins - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_013",
+            "task": {
+                "name": "Friend from the West - Part 1",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Supplier"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_014",
+            "task": {
+                "name": "Friend from the West - Part 2",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Friend from the West - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_015",
+            "task": {
+                "name": "Informed Means Armed",
+                "types": ["place"]
+            },
+            "maps": ["Interchange", "Woods", "Customs"],
+            "requires": ["Setup"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_016",
+            "task": {
+                "name": "Chumming",
+                "types": ["place", "kill"]
+            },
+            "maps": ["Interchange", "Woods", "Customs"],
+            "requires": ["Informed Means Armed"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_017",
+            "task": {
+                "name": "Silent Caliber",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Bullshit"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_018",
+            "task": {
+                "name": "Bullshit",
+                "types": ["task_item", "place"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Chumming"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_019",
+            "task": {
+                "name": "Setup",
+                "types": ["kill"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Friend from the West - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_020",
+            "task": {
+                "name": "Flint",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": ["Chumming"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_021",
+            "task": {
+                "name": "Lend-Lease - Part 1",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline", "Woods"],
+            "requires": ["Friend from the West - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_022",
+            "task": {
+                "name": "Kind of Sabotage",
+                "types": ["task_item"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Pharmacist"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_023",
+            "task": {
+                "name": "Rigged Game",
+                "types": ["place"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Anesthesia"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_024",
+            "task": {
+                "name": "Safe Corridor",
+                "types": ["kill"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Trust Regain", "Loyalty Buyout", "Big Customer"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_025",
+            "task": {
+                "name": "Night Sweep",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Rigged Game"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_026",
+            "task": {
+                "name": "Private Club",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Chumming"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_027",
+            "task": {
+                "name": "Long Road",
+                "types": ["kill"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Friend from the West - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_028",
+            "task": {
+                "name": "Missing Cargo",
+                "types": ["location", "task_item"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Long Road"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_029",
+            "task": {
+                "name": "Top Secret",
+                "types": ["task_item"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Missing Cargo", "Getting Acquainted"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_030",
+            "task": {
+                "name": "House Arrest - Part 1",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Debutor"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_031",
+            "task": {
+                "name": "House Arrest - Part 2",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["House Arrest - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_032",
+            "task": {
+                "name": "Debtor",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Chumming"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_033",
+            "task": {
+                "name": "The Walls Have Eyes",
+                "types": ["place"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Exit Here"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_034",
+            "task": {
+                "name": "Exit Here",
+                "types": ["exit"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Scout"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_035",
+            "task": {
+                "name": "Beyond the Red Meat - Part 1",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Vitamins - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_036",
+            "task": {
+                "name": "Beyond the Red Meat - Part 2",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Beyond the Red Meat - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_037",
+            "task": {
+                "name": "Pyramid Scheme",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Vitamins - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_038",
+            "task": {
+                "name": "No Swiping",
+                "types": ["kill"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Chumming"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_039",
+            "task": {
+                "name": "Irresistible",
+                "types": ["task_item"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Flint"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_040",
+            "task": {
+                "name": "Dangerous Props",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Irresistible"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_041",
+            "task": {
+                "name": "Connections Up North",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Silent Caliber", "Hunting Trip"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_042",
+            "task": {
+                "name": "The Higher They Fly",
+                "types": ["kill"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Swift Retribution", "Inevitable Response"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_043",
+            "task": {
+                "name": "Easy Money - Part 1",
+                "types": ["place"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Burning Rubber"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_044",
+            "task": {
+                "name": "Minute of Fame",
+                "types": ["task_item"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["The Good Times - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_045",
+            "task": {
+                "name": "Serious Allegations",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Viewer"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_046",
+            "task": {
+                "name": "Proper Comeback",
+                "types": ["place"]
+            },
+            "maps": ["Factory", "Woods", "Shoreline"],
+            "requires": ["Camera, Action!"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_047",
+            "task": {
+                "name": "Thirsty - Breadwinner",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Thirsty - Hounds"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_048",
+            "task": {
+                "name": "Thirsty - Delivery",
+                "types": ["place"]
+            },
+            "maps": ["Woods", "Customs"],
+            "requires": ["Thirsty - Breadwinter"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_049",
+            "task": {
+                "name": "Route Deviation",
+                "types": ["place"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["The Higher They Fly"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_050",
+            "task": {
+                "name": "Hindsight 20/20",
+                "types": ["place"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Route Deviation"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_051",
+            "task": {
+                "name": "Key Partner",
+                "types": ["sell"]
+            },
+            "maps":[],
+            "requires": ["Hindsight 20/20"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_052",
+            "task": {
+                "name": "Killer Argument",
+                "types": ["task_item"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Key Partner"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_053",
+            "task": {
+                "name": "Choose Your Friends Wisely",
+                "types": ["Transit", "kill"]
+            },
+            "maps": ["Customs", "Reserve", "Woods", "Lighthouse"],
+            "requires": ["Discombobulate"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_054",
+            "task": {
+                "name": "Indisputable Authority",
+                "types": ["kill"]
+            },
+            "maps": ["The Labyrinth"],
+            "requires": ["Offensive Reconnaissance"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_055",
+            "task": {
+                "name": "Profitable Venture",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_056",
+            "task": {
+                "name": "Safety Guarantee",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Profitable Venture"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_057",
+            "task": {
+                "name": "Never Too Late To Learn",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Safety Guarantee"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_058",
+            "task": {
+                "name": "Get a Foothold",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Never Too Late To Learn"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_059",
+            "task": {
+                "name": "Profit Retention",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Get a Foothold"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_060",
+            "task": {
+                "name": "A Life Lesson",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Profit Retention"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "Skier_061",
+            "task": {
+                "name": "Consolation Prize",
+                "types": ["exit", "kill"]
+            },
+            "maps": ["The Lab"],
+            "requires": ["A Life Lesson"],
+            "kappa": false,
+            "link": ""
+        }
+    ],
+    "Peacekeeper": [
+        {
+            "task_id": "peacekeeper_001",
+            "task": {
+                "name": "Fishing Gear",
+                "types": ["place"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Friend from the West - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_002",
+            "task": {
+                "name": "Tigr Safari",
+                "types": ["place"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Fishing Gear"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_003",
+            "task": {
+                "name": "Scrap Metal",
+                "types": ["place"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Tigr Safari"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_004",
+            "task": {
+                "name": "Eagle Eye",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Scrap Metal"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_005",
+            "task": {
+                "name": "Humanitarian Supplies",
+                "types": ["place", "item", "kill"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Eagle Eye"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_006",
+            "task": {
+                "name": "The Cult - Part 1",
+                "types": ["location"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Humanitarian Supplies", "Friend from the West - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_007",
+            "task": {
+                "name": "The Cult - Part 2",
+                "types": ["place"]
+            },
+            "maps": ["Shoreline", "Customs", "Woods"],
+            "requires": ["The Cult - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_008",
+            "task": {
+                "name": "Spa Tour - Part 1",
+                "types": ["kill"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Humanitarian Supplies", "Friend from the West - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_009",
+            "task": {
+                "name": "Spa Tour - Part 2",
+                "types": ["place"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Spa Tour - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_010",
+            "task": {
+                "name": "Spa Tour - Part 3",
+                "types": ["item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Spa Tour - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_011",
+            "task": {
+                "name": "Spa Tour - Part 4",
+                "types": ["location"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Spa Tour - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_012",
+            "task": {
+                "name": "Spa Tour - Part 5",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Spa Tour - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_013",
+            "task": {
+                "name": "Spa Tour - Part 6",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Spa Tour - Part 5"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_014",
+            "task": {
+                "name": "Spa Tour - Part 7",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Spa Tour - Part 6"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_015",
+            "task": {
+                "name": "Cargo X - Part 1",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Spa Tour - Part 7"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_016",
+            "task": {
+                "name": "Cargo X - Part 2",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Cargo X - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_017",
+            "task": {
+                "name": "Cargo X - Part 3",
+                "types": ["location"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Cargo X - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_018",
+            "task": {
+                "name": "Cargo X - Part 4",
+                "types": ["place"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Cargo X - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_019",
+            "task": {
+                "name": "Wet Job - Part 1",
+                "types": ["kill"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Spa Tour - Part 7"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_020",
+            "task": {
+                "name": "Wet Job - Part 2",
+                "types": ["place"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Wet Job - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_021",
+            "task": {
+                "name": "Wet Job - Part 3",
+                "types": ["location"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Wet Job - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_022",
+            "task": {
+                "name": "Wet Job - Part 4",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Wet Job - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_023",
+            "task": {
+                "name": "Wet Job - Part 5",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Wet Job - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_024",
+            "task": {
+                "name": "Wet Job - Part 6",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": ["Wet Job - Part 5"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_025",
+            "task": {
+                "name": "Mentor",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Wet Job - Part 4"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_026",
+            "task": {
+                "name": "The Guide",
+                "types": ["exit"]
+            },
+            "maps": ["Woods", "Customs", "Interchange", "Shoreline", "Factory", "The Lab", "The Lab", "Reserve", "Lighthouse", "Street of Tarkov", "Ground Zero"],
+            "requires": ["Wet Job - Part 6"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_027",
+            "task": {
+                "name": "Samples",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Anesthesia", "Fishing Gear"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_028",
+            "task": {
+                "name": "TerraGroup Employee",
+                "types": ["task_item"]
+            },
+            "maps": ["The Lab"],
+            "requires": ["Colleagues - Part 3", "Samples", "The Huntsman Path - Sadist"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_029",
+            "task": {
+                "name": "Lend-Lease - Part 2",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Lend-Lease - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_030",
+            "task": {
+                "name": "Peacekeeping Mission",
+                "types": ["kill"]
+            },
+            "maps": ["Customs", "Interchange", "Shoreline", "Woods", "Street of Tarkov", "Ground Zero"],
+            "requires": ["Lend-Lease - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_031",
+            "task": {
+                "name": "Classified Technologies",
+                "types": ["task_item"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Revision - Reserve"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_032",
+            "task": {
+                "name": "Revision - Reserve",
+                "types": ["location","place"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Humanitarian Supplies", "Friend from the West - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_033",
+            "task": {
+                "name": "The Cleaner",
+                "types": ["kill"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["The Guide"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_034",
+            "task": {
+                "name": "Special Equipment",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Trophies"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_035",
+            "task": {
+                "name": "Insomnia",
+                "types": ["kill"]
+            },
+            "maps": ["Woods", "Customs", "Shoreline", "Interchange", "Reserve", "Lighthouse", "Street of Tarkov", "Ground Zero"],
+            "requires": ["Cargo X - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_036",
+            "task": {
+                "name": "Counteraction",
+                "types": ["item", "kill"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Spa Tour - Part 3"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_037",
+            "task": {
+                "name": "Overpopulation",
+                "types": ["kill"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Spa Tour - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_038",
+            "task": {
+                "name": "Revision - Lighthouse",
+                "types": ["place"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": [],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_039",
+            "task": {
+                "name": "Trophies",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["The Huntsman Path - Forest Cleaning"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_040",
+            "task": {
+                "name": "Revision - Streets of Tarkov",
+                "types": ["place"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_041",
+            "task": {
+                "name": "Road Closed",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Spa Tour - Part 7"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_042",
+            "task": {
+                "name": "Worst Job in the World",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Revision - Streets of Tarkov"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_043",
+            "task": {
+                "name": "Your Car Needs a Service",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Cargo X - Part 4"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_044",
+            "task": {
+                "name": "One Less Loose End",
+                "types": ["task_item", "place"]
+            },
+            "maps": ["Factory", "Woods"],
+            "requires": ["Overpopulation"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_045",
+            "task": {
+                "name": "New Day, New Paths",
+                "types": ["Transit", "location"]
+            },
+            "maps": ["Ground Zero", "Street of Tarkov"],
+            "requires": ["Revision - Streets of Tarkov"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_046",
+            "task": {
+                "name": "Seizing the Initiative",
+                "types": ["Transit"]
+            },
+            "maps": ["Customs", "Shoreline"],
+            "requires": ["Humanitarian Supplies"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "peacekeeper_047",
+            "task": {
+                "name": "Confidential Info",
+                "types": ["task_item"]
+            },
+            "maps": ["The Labyrinth"],
+            "requires": ["Offensive Reconnaissance"],
+            "kappa": false,
+            "link": ""
+        }
+    ],
+    "Mechanic": [
+        {
+            "task_id": "mechanic_001",
+            "task": {
+                "name": "Saving the Mole",
+                "types": ["task_item"]
+            },
+            "maps": ["Ground Zero"],
+            "requires": [],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_002",
+            "task": {
+                "name": "Introduction",
+                "types": ["task_item"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Saving the Mole"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_003",
+            "task": {
+                "name": "Gunsmith - Part 1",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Saving the Mole"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_004",
+            "task": {
+                "name": "Gunsmith - Part 2",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_005",
+            "task": {
+                "name": "Gunsmith - Part 3",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_006",
+            "task": {
+                "name": "Gunsmith - Part 4",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 2", "Gunsmith - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_007",
+            "task": {
+                "name": "Gunsmith - Part 5",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_008",
+            "task": {
+                "name": "Gunsmith - Part 6",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 5"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_009",
+            "task": {
+                "name": "Gunsmith - Part 7",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 6"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_010",
+            "task": {
+                "name": "Gunsmith - Part 8",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 7"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_011",
+            "task": {
+                "name": "Gunsmith - Part 9",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 8"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_012",
+            "task": {
+                "name": "Gunsmith - Part 10",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 9"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_013",
+            "task": {
+                "name": "Gunsmith - Part 11",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 10"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_014",
+            "task": {
+                "name": "Gunsmith - Part 12",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 11"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_015",
+            "task": {
+                "name": "Gunsmith - Part 13",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 12"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_016",
+            "task": {
+                "name": "Gunsmith - Part 14",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 13"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_017",
+            "task": {
+                "name": "Gunsmith - Part 15",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 14"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_018",
+            "task": {
+                "name": "Gunsmith - Part 16",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 15"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_019",
+            "task": {
+                "name": "Gunsmith - Part 17",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 16"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_020",
+            "task": {
+                "name": "Gunsmith - Part 18",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 17"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_021",
+            "task": {
+                "name": "Gunsmith - Part 19",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 18"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_022",
+            "task": {
+                "name": "Gunsmith - Part 20",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 19"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_023",
+            "task": {
+                "name": "Gunsmith - Part 21",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 20"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_024",
+            "task": {
+                "name": "Gunsmith - Part 22",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 21"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_025",
+            "task": {
+                "name": "Gunsmith - Part 23",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 22"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_026",
+            "task": {
+                "name": "Gunsmith - Part 24",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 23"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_027",
+            "task": {
+                "name": "Gunsmith - Part 25",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 24"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_028",
+            "task": {
+                "name": "Gunsmith - Old Friend's Request",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 7"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_029",
+            "task": {
+                "name": "Signal - Part 1",
+                "types": ["location"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Gunsmith - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_030",
+            "task": {
+                "name": "Signal - Part 2",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Signal - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_031",
+            "task": {
+                "name": "Insider",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": ["Signal - Part 1", "Gunsmith - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_032",
+            "task": {
+                "name": "Scout",
+                "types": ["location"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Signal - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_033",
+            "task": {
+                "name": "Capacity Check",
+                "types": ["place"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Farming - Part 1", "Forklift Certified"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_034",
+            "task": {
+                "name": "Black Swan",
+                "types": ["place"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Scout"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_035",
+            "task": {
+                "name": "Forklift Certified",
+                "types": ["location"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Black Swan"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_036",
+            "task": {
+                "name": "Surplus Goods",
+                "types": ["task_item"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Back Door"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_037",
+            "task": {
+                "name": "Back Door",
+                "types": ["location", "exit"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Scout"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_038",
+            "task": {
+                "name": "Signal - Part 3",
+                "types": ["place"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Signal - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_039",
+            "task": {
+                "name": "Signal - Part 4",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": ["Signal - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_040",
+            "task": {
+                "name": "Farming - Part 1",
+                "types": ["place"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Gunsmith - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_041",
+            "task": {
+                "name": "Farming - Part 2",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Farming - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_042",
+            "task": {
+                "name": "Farming - Part 3",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Farming - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_043",
+            "task": {
+                "name": "Farming - Part 4",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Farming - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_044",
+            "task": {
+                "name": "Bad Habit",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Farming - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_045",
+            "task": {
+                "name": "Psycho Sniper",
+                "types": ["progression", "kill"]
+            },
+            "maps":[],
+            "requires": ["Wet Job - Part 6"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_046",
+            "task": {
+                "name": "A Shooter Born in Heaven",
+                "types": ["kill"]
+            },
+            "maps": ["Woods", "Reserve", "Shoreline", "Customs", "Lighthouse", "Interchange", "Street of Tarkov", "Ground Zero"],
+            "requires": ["Farming - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_047",
+            "task": {
+                "name": "Fertilizers",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Farming - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_048",
+            "task": {
+                "name": "Import",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Farming - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_049",
+            "task": {
+                "name": "Passion for Ergonomics",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Farming - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_050",
+            "task": {
+                "name": "Chemistry Closet",
+                "types": ["location"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Colleagues - Part 1", "Anesthesia"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_051",
+            "task": {
+                "name": "Calibration",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Chemistry Closet"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_052",
+            "task": {
+                "name": "The Courier",
+                "types": ["place"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Calibration"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_053",
+            "task": {
+                "name": "Corporate Secrets",
+                "types": ["task_item"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Farming - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_054",
+            "task": {
+                "name": "Energy Crisis",
+                "types": ["place"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Farming - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_055",
+            "task": {
+                "name": "Broadcast - Part 1",
+                "types": ["place"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Farming - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_056",
+            "task": {
+                "name": "Broadcast - Part 2",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Broadcast - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_057",
+            "task": {
+                "name": "Surveillance",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Corporate Secrets", "Broadcast - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_058",
+            "task": {
+                "name": "Watching You",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Broadcast - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_059",
+            "task": {
+                "name": "Network Provider - Part 1",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["The Punisher - Part 4", "Lost Contact", "Seaside Vacation", "The Cult - Part 2", "Cargo X - Part 4", "Broadcast - Part 2", "Gunsmith - Part 10", "Database - Part 2", "A Fuel Matter", "Courtesy Visit", "The Huntsman Path - Forest Cleaning", "House Arrest - Part 1", "Chemical - Part 4", "Big Customer", "Out of Curiosity"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_060",
+            "task": {
+                "name": "Network Provider - Part 2",
+                "types": ["place"]
+            },
+            "maps":[],
+            "requires": ["Network Provider - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_061",
+            "task": {
+                "name": "Assessment - Part 1",
+                "types": ["kill"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Network Provider - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_062",
+            "task": {
+                "name": "Assessment - Part 2",
+                "types": ["place"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Assessment - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_063",
+            "task": {
+                "name": "Assessment - Part 3",
+                "types": ["item", "kill"]
+            },
+            "maps": ["The Lab"],
+            "requires": ["Assessment - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_064",
+            "task": {
+                "name": "Key to the Tower",
+                "types": ["item", "task_item"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Assessment - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_065",
+            "task": {
+                "name": "Knock-Knock",
+                "types": ["location"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Key to the Tower"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_066",
+            "task": {
+                "name": "Getting Acquainted",
+                "types": ["task_item"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Knock-Knock"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_067",
+            "task": {
+                "name": "The Door",
+                "types": ["place"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Signal - Part 3"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_068",
+            "task": {
+                "name": "Steady Signal",
+                "types": ["place"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Signal - Part 4"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_069",
+            "task": {
+                "name": "Developer's Secrets - Part 1",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Surveillance"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_070",
+            "task": {
+                "name": "Developer's Secrets - Part 2",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Developer's Secrets - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_071",
+            "task": {
+                "name": "Airmail",
+                "types": ["place"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Quality Standard"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_072",
+            "task": {
+                "name": "Camera, Action!",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Serious Allegations"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_073",
+            "task": {
+                "name": "Secrets of Polikhim",
+                "types": ["Transit", "task_item", "kill"]
+            },
+            "maps": ["Customs", "Factory"],
+            "requires": ["Capacity Check"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_074",
+            "task": {
+                "name": "A Helping Hand",
+                "types": ["task_item"]
+            },
+            "maps": ["Woods"],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_075",
+            "task": {
+                "name": "Shady Contractor",
+                "types": ["task_item"]
+            },
+            "maps": ["Ground Zero"],
+            "requires": ["Saving the Mole"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_076",
+            "task": {
+                "name": "Needle in a Haystack",
+                "types": ["location"]
+            },
+            "maps": ["Ground Zero", "Interchange", "Street of Tarkov", "Shoreline"],
+            "requires": ["Shady Contractor"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_077",
+            "task": {
+                "name": "Hidden Layer",
+                "types": ["location"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Needle in a Haystack"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_078",
+            "task": {
+                "name": "Offensive Reconnaissance",
+                "types": ["Transit"]
+            },
+            "maps": ["Shoreline", "The Labyrinth"],
+            "requires": ["Hidden Layer"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_079",
+            "task": {
+                "name": "Hypotheses Testing",
+                "types": ["task_item"]
+            },
+            "maps": ["The Labyrinth"],
+            "requires": ["Offensive Reconnaissance"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_080",
+            "task": {
+                "name": "Hobby Club",
+                "types": ["task_item", "place"]
+            },
+            "maps": ["Reserve", "Customs"],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_081",
+            "task": {
+                "name": "Make Amends - Buyout",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Getting Acquainted"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_082",
+            "task": {
+                "name": "Make Amends - Equipment",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Make Amends - Buyout"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_083",
+            "task": {
+                "name": "Make Amends - Security",
+                "types": ["place"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_084",
+            "task": {
+                "name": "Make Amends - Sweep Up",
+                "types": ["kill"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Make Amends - Security"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_085",
+            "task": {
+                "name": "Make Amends",
+                "types": ["task_item"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Make Amends - Equipment", "Make Amends - Sweep Up", "Make Amends - Quarantine"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_086",
+            "task": {
+                "name": "Goals and Means",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Gunsmith - Part 15", "Getting Acquainted"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "mechanic_087",
+            "task": {
+                "name": "Setting Priorities",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Cargo X - Part 4", "A Shooter Born in Heaven"],
+            "kappa": false,
+            "link": ""
+        }
+    ],
+    "Ragman": [
+        {
+            "task_id": "ragman_001",
+            "task": {
+                "name": "Only Business",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": [],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_002",
+            "task": {
+                "name": "Make ULTRA Great Again",
+                "types": ["kill"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Only Business"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_003",
+            "task": {
+                "name": "Big Sale",
+                "types": ["location"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Only Business"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_004",
+            "task": {
+                "name": "A Fuel Matter",
+                "types": ["place"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["The Blood of War - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_005",
+            "task": {
+                "name": "Inventory Check",
+                "types": ["location"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["A Fuel Matter"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_006",
+            "task": {
+                "name": "The Blood of War - Part 1",
+                "types": ["place"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Big Sale", "Make ULTRA Great Again"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_007",
+            "task": {
+                "name": "Dressed to Kill",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["The Blood of War - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_008",
+            "task": {
+                "name": "Gratitude",
+                "types": ["place"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Dressed to Kill", "Database - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_009",
+            "task": {
+                "name": "Hot Delivery",
+                "types": ["place"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Gratitude"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_010",
+            "task": {
+                "name": "Scavenger",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": ["Hot Delivery"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_011",
+            "task": {
+                "name": "Sales Night",
+                "types": ["exit"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Gratitude"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_012",
+            "task": {
+                "name": "Database - Part 1",
+                "types": ["task_item"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Big Sale", "Make ULTRA Great Again"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_013",
+            "task": {
+                "name": "Database - Part 2",
+                "types": ["task_item"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Database - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_014",
+            "task": {
+                "name": "Minibus",
+                "types": ["place"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Database - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_015",
+            "task": {
+                "name": "Sew it Good - Part 1",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Database - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_016",
+            "task": {
+                "name": "Sew it Good - Part 2",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Sew it Good - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_017",
+            "task": {
+                "name": "Sew it Good - Part 3",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Sew it Good - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_018",
+            "task": {
+                "name": "Sew it Good - Part 4",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Sew it Good - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_019",
+            "task": {
+                "name": "The Blood of War - Part 2",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["The Blood of War - Part 1", "Sew it Good - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_020",
+            "task": {
+                "name": "The Blood of War - Part 3",
+                "types": ["place"]
+            },
+            "maps": ["Woods"],
+            "requires": ["The Blood of War - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_021",
+            "task": {
+                "name": "The Key to Success",
+                "types": ["task_item"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Sew it Good - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_022",
+            "task": {
+                "name": "No Fuss Needed",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": ["The Key to Success"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_023",
+            "task": {
+                "name": "Supervisor",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Sales Night", "The Key to Success"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_024",
+            "task": {
+                "name": "Living High is Not a Crime - Part 1",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["The Blood of War - Part 1", "Sew it Good - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_025",
+            "task": {
+                "name": "Living High is Not a Crime - Part 2",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["The Blood of War - Part 3", "Living High is Not a Crime - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_026",
+            "task": {
+                "name": "Charisma Brings Success",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": ["The Blood of War - Part 1", "Sew it Good - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_027",
+            "task": {
+                "name": "Textile - Part 1",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Sew it Good - Part 4"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_028",
+            "task": {
+                "name": "Textile - Part 2",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Textile - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_029",
+            "task": {
+                "name": "Long Line",
+                "types": ["kill"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Supervisor"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_030",
+            "task": {
+                "name": "Booze",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Long Line"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_031",
+            "task": {
+                "name": "Break the Deal",
+                "types": ["place"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Make ULTRA Great Again"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_032",
+            "task": {
+                "name": "Audit",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Only Business"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_033",
+            "task": {
+                "name": "Ballet Lover",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Audit"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_034",
+            "task": {
+                "name": "Audiophile",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Minibus", "Ballet Lover"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_035",
+            "task": {
+                "name": "Dandies",
+                "types": ["kill", "place"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Ballet Lover"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_036",
+            "task": {
+                "name": "Nothing Fishy About This",
+                "types": ["location"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Big Sale"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_037",
+            "task": {
+                "name": "Key to the City",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Proper Comeback"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_038",
+            "task": {
+                "name": "The Invisible Hand",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Only Business"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_039",
+            "task": {
+                "name": "Circulate",
+                "types": ["sell"]
+            },
+            "maps":[],
+            "requires": ["The Invisible Hand"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_040",
+            "task": {
+                "name": "Special Offer",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Circulate"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_041",
+            "task": {
+                "name": "Combat Proven",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Special Offer"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_042",
+            "task": {
+                "name": "Drip-Out - Part 1",
+                "types": ["kill", "item"]
+            },
+            "maps":[],
+            "requires": ["Minibus"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_043",
+            "task": {
+                "name": "Drip-Out - Part 2",
+                "types": ["kill", "item"]
+            },
+            "maps":[],
+            "requires": ["Dandies"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_044",
+            "task": {
+                "name": "Know Your Place!",
+                "types": ["Transit", "kill"]
+            },
+            "maps": ["Street of Tarkov", "Interchange"],
+            "requires": ["The Blood of War - Part 3"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_045",
+            "task": {
+                "name": "Another Shipping Delay",
+                "types": ["location"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Hot Wheels", "Let's Try Again & Natural Exchange"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_046",
+            "task": {
+                "name": "Stabilize Business",
+                "types": ["kill"]
+            },
+            "maps": ["Ground Zero"],
+            "requires": ["Ask for Directions"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_047",
+            "task": {
+                "name": "Sensory Analysis - Part 1",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Hidden Layer"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_048",
+            "task": {
+                "name": "Hot Zone",
+                "types": ["place"]
+            },
+            "maps": ["Customs", "Reserve"],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ragman_049",
+            "task": {
+                "name": "Vacate the Premises",
+                "types": ["kill"]
+            },
+            "maps": ["The Labyrinth"],
+            "requires": ["Offensive Reconnaissance"],
+            "kappa": false,
+            "link": ""
+        }
+    ],
+    "Jaeger": [
+        {
+            "task_id": "jaeger_001",
+            "task": {
+                "name": "Acquaintance",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Introduction"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_002",
+            "task": {
+                "name": "The Survivalist Path - Unprotected but Dangerous",
+                "types": ["kill"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Acquaintance"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_003",
+            "task": {
+                "name": "The Survivalist Path - Thrifty",
+                "types": ["place"]
+            },
+            "maps": ["Woods"],
+            "requires": ["The Survivalist Path - Unprotected but Dangerous"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_004",
+            "task": {
+                "name": "The Survivalist Path - Zhivchik",
+                "types": ["exit"]
+            },
+            "maps":[],
+            "requires": ["The Survivalist Path - Thrifty"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_005",
+            "task": {
+                "name": "The Survivalist Path - Wounded Beast",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Survivalist Path - Zhivchik"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_006",
+            "task": {
+                "name": "The Survivalist Path - Tough Guy",
+                "types": ["kill"]
+            },
+            "maps": ["Woods"],
+            "requires": ["The Survivalist Path - Wounded Beast"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_007",
+            "task": {
+                "name": "Courtesy Visit",
+                "types": ["location"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["The Survivalist Path - Tough Guy"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_008",
+            "task": {
+                "name": "Nostalgia",
+                "types": ["task_item"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Courtesy Visit"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_009",
+            "task": {
+                "name": "The Survivalist Path - Cold Blooded",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Survivalist Path - Wounded Beast"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_010",
+            "task": {
+                "name": "The Survivalist Path - Junkie",
+                "types": ["kill"]
+            },
+            "maps": ["Woods"],
+            "requires": ["The Survivalist Path - Combat Medic"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_011",
+            "task": {
+                "name": "The Survivalist Path - Eagle-Owl",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Survivalist Path - Tough Guy"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_012",
+            "task": {
+                "name": "The Survivalist Path - Combat Medic",
+                "types": ["progression"]
+            },
+            "maps":[],
+            "requires": ["The Survivalist Path - Eagle-Owl"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_013",
+            "task": {
+                "name": "Ambulance",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Shady Business"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_014",
+            "task": {
+                "name": "The Huntsman Path - Secured Perimeter",
+                "types": ["kill"]
+            },
+            "maps": ["Factory"],
+            "requires": ["The Survivalist Path - Tough Guy", "The Tarkov Shooter - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_015",
+            "task": {
+                "name": "The Huntsman Path - Crooked Cop",
+                "types": ["kill", "item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["The Huntsman Path - Administrator"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_016",
+            "task": {
+                "name": "Reserve",
+                "types": ["location"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["The Delicious Sausage"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_017",
+            "task": {
+                "name": "The Huntsman Path - Forest Cleaning",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Huntsman Path - Secured Perimeter"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_018",
+            "task": {
+                "name": "The Huntsman Path - Controller",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Huntsman Path - Forest Cleaning"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_019",
+            "task": {
+                "name": "The Huntsman Path - Evil Watchman",
+                "types": ["kill"]
+            },
+            "maps": ["Customs"],
+            "requires": ["The Huntsman Path - Forest Cleaning"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_020",
+            "task": {
+                "name": "Fishing Place",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Nostalgia"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_021",
+            "task": {
+                "name": "The Huntsman Path - Trophy",
+                "types": ["kill", "item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["The Huntsman Path - Secured Perimeter"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_022",
+            "task": {
+                "name": "The Huntsman Path - Justice",
+                "types": ["kill"]
+            },
+            "maps": ["Customs"],
+            "requires": ["The Huntsman Path - Secured Perimeter"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_023",
+            "task": {
+                "name": "The Huntsman Path - Sellout",
+                "types": ["kill", "item"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Sales Night", "The Huntsman Path - Forest Cleaning"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_024",
+            "task": {
+                "name": "The Huntsman Path - Woods Keeper",
+                "types": ["kill", "item"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Supply Plans", "Kind of Sabotage", "The Huntsman Path - Secured Perimeter"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_025",
+            "task": {
+                "name": "Hunting Trip",
+                "types": ["kill"]
+            },
+            "maps": ["Woods"],
+            "requires": ["The Huntsman Path - Woods Keeper"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_026",
+            "task": {
+                "name": "The Huntsman Path - Factory Chief",
+                "types": ["kill", "item"]
+            },
+            "maps": ["Factory"],
+            "requires": ["Scout", "The Huntsman Path - Forest Cleaning"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_027",
+            "task": {
+                "name": "The Huntsman Path - Eraser - Part 1",
+                "types": ["kill"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Pest Control"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_028",
+            "task": {
+                "name": "The Huntsman Path - Eraser - Part 2",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Huntsman Path - Eraser - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_029",
+            "task": {
+                "name": "The Tarkov Shooter - Part 1",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Acquaintance"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_030",
+            "task": {
+                "name": "The Tarkov Shooter - Part 2",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Tarkov Shooter - Part 1"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_031",
+            "task": {
+                "name": "The Tarkov Shooter - Part 3",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Tarkov Shooter - Part 2"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_032",
+            "task": {
+                "name": "The Tarkov Shooter - Part 4",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Tarkov Shooter - Part 3"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_033",
+            "task": {
+                "name": "The Tarkov Shooter - Part 5",
+                "types": ["kill"]
+            },
+            "maps": ["Customs"],
+            "requires": ["The Tarkov Shooter - Part 4"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_034",
+            "task": {
+                "name": "The Tarkov Shooter - Part 6",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Tarkov Shooter - Part 5"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_035",
+            "task": {
+                "name": "The Tarkov Shooter - Part 7",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Tarkov Shooter - Part 6"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_036",
+            "task": {
+                "name": "The Tarkov Shooter - Part 8",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["The Tarkov Shooter - Part 7"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_037",
+            "task": {
+                "name": "Shady Business",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["What's on the Flash Drive?"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_038",
+            "task": {
+                "name": "The Huntsman Path - Sadist",
+                "types": ["kill"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Colleagues - Part 2", "Rigged Game", "Chemistry Closet"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_039",
+            "task": {
+                "name": "Hunter",
+                "types": ["kill"]
+            },
+            "maps": ["Woods"],
+            "requires": ["The Huntsman Path - Secured Perimeter"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_040",
+            "task": {
+                "name": "Pest Control",
+                "types": ["kill"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Reserve"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_041",
+            "task": {
+                "name": "Swift One",
+                "types": ["kill"]
+            },
+            "maps": ["Woods"],
+            "requires": ["The Huntsman Path - Sadist", "Colleagues - Part 3"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_042",
+            "task": {
+                "name": "The Huntsman Path - Relentless",
+                "types": ["kill"]
+            },
+            "maps": ["Factory", "Interchange", "Customs", "Woods", "Reserve", "Shoreline"],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_043",
+            "task": {
+                "name": "The Hermit",
+                "types": ["task_item"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["The Survivalist Path - Tough Guy"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_044",
+            "task": {
+                "name": "The Huntsman Path - Outcasts",
+                "types": ["kill"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["The Huntsman Path - Forest Cleaning"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_045",
+            "task": {
+                "name": "Stray Dogs",
+                "types": ["kill"]
+            },
+            "maps": ["Customs", "Woods", "Shoreline", "Lighthouse"],
+            "requires": ["The Huntsman Path - Trophy", "The Huntsman Path - Sellout", "The Huntsman Path - Woods Keeper"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_046",
+            "task": {
+                "name": "The Delicious Sausage",
+                "types": ["item", "location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["The Survivalist Path - Thrifty"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_047",
+            "task": {
+                "name": "Cease Fire!",
+                "types": ["exit"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["The Delicious Sausage"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_048",
+            "task": {
+                "name": "Slaughterhouse",
+                "types": ["kill"]
+            },
+            "maps": ["Woods", "Customs", "Interchange", "Shoreline", "Factory", "Factory", "Reserve", "Lighthouse", "Street of Tarkov", "Ground Zero"],
+            "requires": ["The Huntsman Path - Administrator", "Broadcast - Part 4"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_049",
+            "task": {
+                "name": "Broadcast - Part 3",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Broadcast - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_050",
+            "task": {
+                "name": "Broadcast - Part 4",
+                "types": ["location"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Broadcast - Part 3"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_051",
+            "task": {
+                "name": "Broadcast - Part 5",
+                "types": ["kill", "place"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Broadcast - Part 4"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_052",
+            "task": {
+                "name": "The Huntsman Path - Administrator",
+                "types": ["kill", "place"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["The Huntsman Path - Forest Cleaning"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_053",
+            "task": {
+                "name": "The Huntsman Path - Big Game",
+                "types": ["kill"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["The Huntsman Path - Forest Cleaning", "Urban Medicine"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_054",
+            "task": {
+                "name": "Every Hunter Knows This",
+                "types": ["location"]
+            },
+            "maps": ["Factory", "Customs"],
+            "requires": ["Rough Tarkov"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_055",
+            "task": {
+                "name": "Rough Tarkov",
+                "types": ["location"]
+            },
+            "maps": ["Woods","Ground Zero"],
+            "requires": ["Acquaintance"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_056",
+            "task": {
+                "name": "Dragnet",
+                "types": ["task_item"]
+            },
+            "maps": ["Factory"],
+            "requires": ["A Healthy Alternative", "One Less Loose End"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_057",
+            "task": {
+                "name": "Claustrophobia",
+                "types": ["kill"]
+            },
+            "maps": ["Factory"],
+            "requires": ["The Huntsman Path - Forest Cleaning"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_058",
+            "task": {
+                "name": "Thirsty - Hounds",
+                "types": ["kill"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["The Delicious Sausage"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_059",
+            "task": {
+                "name": "Forester's Duty",
+                "types": ["Transit", "kill"]
+            },
+            "maps": ["Lighthouse", "Shoreline"],
+            "requires": ["Nostalgia"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_060",
+            "task": {
+                "name": "Work Smarter",
+                "types": ["location"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Acquaintance"],
+            "kappa": true,
+            "link": ""
+        },
+        {
+            "task_id": "jaeger_061",
+            "task": {
+                "name": "Rite of Passage",
+                "types": ["kill", "item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Work Smarter"],
+            "kappa": true,
+            "link": ""
+        }
+    ],
+    "Ref": [
+        {
+            "task_id": "ref_001",
+            "task": {
+                "name": "Easy Money - Part 2",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Easy Money - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_002",
+            "task": {
+                "name": "Provide Viewership",
+                "types": ["place", "kill"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Easy Money - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_003",
+            "task": {
+                "name": "Balancing - Part 1",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Easy Money - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_004",
+            "task": {
+                "name": "Balancing - Part 2",
+                "types": ["kill"]
+            },
+            "maps":[],
+            "requires": ["Balancing - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_005",
+            "task": {
+                "name": "Surprise",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Balancing - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+
+        {
+            "task_id": "ref_006",
+            "task": {
+                "name": "Create a Distraction - Part 1",
+                "types": ["place"]
+            },
+            "maps": ["Ground Zero"],
+            "requires": ["Surprise"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_007",
+            "task": {
+                "name": "Create a Distraction - Part 2",
+                "types": ["kill"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Create a Distraction - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_008",
+            "task": {
+                "name": "Arena Business",
+                "types": ["Arena"]
+            },
+            "maps":[],
+            "requires": ["Balancing - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_009",
+            "task": {
+                "name": "Professional Fitness — Part 1",
+                "types": ["Arena"]
+            },
+            "maps":[],
+            "requires": ["Balancing - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_010",
+            "task": {
+                "name": "Professional Fitness — Part 2",
+                "types": ["Arena"]
+            },
+            "maps":[],
+            "requires": ["Professional Fitness — Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_011",
+            "task": {
+                "name": "To Great Heights! - Part 1",
+                "types": ["Arena"]
+            },
+            "maps":[],
+            "requires": ["Professional Fitness — Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_012",
+            "task": {
+                "name": "To Great Heights! - Part 2",
+                "types": ["Arena"]
+            },
+            "maps":[],
+            "requires": ["To Great Heights! - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_013",
+            "task": {
+                "name": "To Great Heights! - Part 3",
+                "types": ["Arena"]
+            },
+            "maps":[],
+            "requires": ["To Great Heights! - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_014",
+            "task": {
+                "name": "To Great Heights! - Part 4",
+                "types": ["Arena", "item"]
+            },
+            "maps":[],
+            "requires": ["To Great Heights! - Part 3"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_015",
+            "task": {
+                "name": "To Great Heights! - Part 5",
+                "types": ["Arena"]
+            },
+            "maps":[],
+            "requires": ["To Great Heights! - Part 4"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_016",
+            "task": {
+                "name": "To Great Heights! - Part 6",
+                "types": ["Arena"]
+            },
+            "maps":[],
+            "requires": ["To Great Heights! - Part 5"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_017",
+            "task": {
+                "name": "Hold the Lead",
+                "types": ["Arena"]
+            },
+            "maps":[],
+            "requires": ["To Great Heights! - Part 6"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_017",
+            "task": {
+                "name": "Against the Conscience - Part 1",
+                "types": ["location"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Hold the Lead", "Create a Distraction - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_017",
+            "task": {
+                "name": "Against the Conscience - Part 2",
+                "types": ["Arena"]
+            },
+            "maps":[],
+            "requires": ["Against the Conscience - Part 1"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_017",
+            "task": {
+                "name": "Decisions, Decisions",
+                "types": ["task_item"]
+            },
+            "maps": ["Customs"],
+            "requires": ["Against the Conscience - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "ref_017",
+            "task": {
+                "name": "Postponed Reward",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Surprise Gift"],
+            "kappa": false,
+            "link": ""
+        }
+    ],
+    "Lightkeeper": [
+        {
+            "task_id": "lightkeeper_001",
+            "task": {
+                "name": "Information Source",
+                "types": ["exit", "place"]
+            },
+            "maps": ["Customs", "Woods", "Interchange", "Street of Tarkov", "Ground Zero"],
+            "requires": ["Getting Acquainted"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_002",
+            "task": {
+                "name": "Missing Informant",
+                "types": ["task_item"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Information Source"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_003",
+            "task": {
+                "name": "Snatch",
+                "types": ["task_item", "place"]
+            },
+            "maps": ["Lighthouse", "Reserve"],
+            "requires": ["Missing Informant"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_004",
+            "task": {
+                "name": "Return the Favor",
+                "types": ["kill", "place"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Snatch"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_005",
+            "task": {
+                "name": "Payback",
+                "types": ["kill", "place"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Return the Favor"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_006",
+            "task": {
+                "name": "Provocation",
+                "types": ["kill", "place"]
+            },
+            "maps": ["Interchange"],
+            "requires": ["Payback"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_007",
+            "task": {
+                "name": "Following the Bread Crumbs",
+                "types": ["kill", "task_item"]
+            },
+            "maps": ["Reserve", "The Lab"],
+            "requires": ["Provocation"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_008",
+            "task": {
+                "name": "Spotter",
+                "types": ["place"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Following the Bread Crumbs"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_009",
+            "task": {
+                "name": "Make an Impression",
+                "types": ["kill", "progression"]
+            },
+            "maps":[],
+            "requires": ["Spotter"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_010",
+            "task": {
+                "name": "Trouble in the Big City",
+                "types": ["kill", "place"]
+            },
+            "maps": ["Street of Tarkov"],
+            "requires": ["Make an Impression"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_011",
+            "task": {
+                "name": "Order From Outside",
+                "types": ["task_item"]
+            },
+            "maps": ["Reserve", "Woods"],
+            "requires": ["Inevitable Response"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_012",
+            "task": {
+                "name": "Simple Side Job",
+                "types": ["task_item", "place"]
+            },
+            "maps": ["Reserve", "Woods"],
+            "requires": ["Swift Retribution"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "lightkeeper_013",
+            "task": {
+                "name": "Keeper's Word",
+                "types": ["place"]
+            },
+            "maps": ["The Labyrinth"],
+            "requires": [],
+            "kappa": false,
+            "link": ""
+        }
+    ],
+    "BTR Driver": [
+        {
+            "task_id": "btr driver_001",
+            "task": {
+                "name": "Shipping Delay - Part 2",
+                "types": ["location"]
+            },
+            "maps": ["Woods"],
+            "requires": ["A Helping Hand"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "btr driver_002",
+            "task": {
+                "name": "Hot Wheels",
+                "types": ["place"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Shipping Delay - Part 2"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "btr driver_003",
+            "task": {
+                "name": "Hot Wheels - Let's Try Again",
+                "types": ["place"]
+            },
+            "maps": ["Reserve"],
+            "requires": ["Hot Wheels"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "btr driver_004",
+            "task": {
+                "name": "Inevitable Response",
+                "types": ["Transit", "kill"]
+            },
+            "maps": ["Woods", "Reserve"],
+            "requires": ["Hot Wheels - Let's Try Again"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "btr driver_005",
+            "task": {
+                "name": "Swift Retribution",
+                "types": ["kill"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Hot Wheels"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "btr driver_006",
+            "task": {
+                "name": "Building Foundations",
+                "types": ["sell"]
+            },
+            "maps":[],
+            "requires": ["Inevitable Response"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "btr driver_007",
+            "task": {
+                "name": "Natural Exchange",
+                "types": ["place"]
+            },
+            "maps": ["Shoreline"],
+            "requires": ["Building Foundations"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "btr driver_008",
+            "task": {
+                "name": "Ask for Directions",
+                "types": ["place"]
+            },
+            "maps": ["Lighthouse"],
+            "requires": ["Another Shipping Delay"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "btr driver_009",
+            "task": {
+                "name": "Battery Change",
+                "types": ["item"]
+            },
+            "maps":[],
+            "requires": ["Stabilize Business", "Stick in the Wheel"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "btr driver_010",
+            "task": {
+                "name": "Protect the Sky",
+                "types": ["task_item"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Battery Change"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "btr driver_011",
+            "task": {
+                "name": "Discombobulate",
+                "types": ["place"]
+            },
+            "maps": ["Woods"],
+            "requires": ["Protect the Sky"],
+            "kappa": false,
+            "link": ""
+        },
+        {
+            "task_id": "btr driver_012",
+            "task": {
+                "name": "The Price of Independence",
+                "types": ["Transit", "place", "task_item", "kill"]
+            },
+            "maps": ["Customs", "Reserve", "Woods", "Lighthouse"],
+            "requires": ["Discombobulate"],
+            "kappa": false,
+            "link": ""
+        }
+    ]
+}
