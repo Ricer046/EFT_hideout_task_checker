@@ -1,0 +1,589 @@
+{
+    "Air Filtering Unit": {
+        "1": {
+            "items": {
+                "Gas mask air filter": 5,
+                "Military power filter": 5,
+                "Military corrugated tube": 10
+            }
+        }                     
+    },
+    "Bitcoin Farm": {
+        "1": {
+            "items":{
+                "T-Shaped plug": 10,
+                "VPX Flash Storage Module": 2,
+                "Power cord": 15,
+                "Power supply unit": 10,
+                "CPU fan": 15
+            }
+        },
+        "2": {
+            "items":{
+                "Printed circuit board": 15,
+                "Phase control relay": 10,
+                "Power supply unit": 10,
+                "CPU fan": 15,
+                "Military power filter": 5
+            }
+        },
+        "3": {
+            "items":{
+                "Silicone tube": 15,
+                "Electric motor": 10,
+                "Pressure gauge": 10,
+                "CPU fan": 25,
+                "6-STEN-140-M military battery": 2
+            }
+
+        }
+    },
+    "Booze Generator": {
+        "1": {
+            "items": {
+                "Metal spare parts": 5,
+                "Pressure gauge": 2,
+                "Radiator helix": 5,
+                "Silicone tube": 10,
+                "Pipe grip wrench": 1,
+                "Analog thermometer": 2,
+                "Corrugated hose": 10
+            }
+        }                     
+    },
+    "Cultist Circle": {
+        "1": {
+            "items": {
+                "PAID AntiRoach spray": 1,
+                "Light bulb": 5,
+                "Can of white salt": 3,
+                "SurvL Survivor Lighter": 1,
+                "Construction measuring tape": 1,
+                "WI-FI Camera": 1
+            }
+        }                     
+    },
+    "Workbench": {
+        "1": {
+            "items": {
+                "Screw nuts": 2,
+                "Bolts": 2,
+                "Leatherman Multitool": 1
+            }
+        },
+        "2": {
+            "items": {
+                "Bolts": 10,
+                "Toolset": 3,
+                "Set of files Master": 1,
+                "Electric drill": 2,
+                "Weapon parts": 3
+            } 
+        },
+        "3": {
+            "items": {
+                "Can of thermite": 5,
+                "Pliers Elite": 2,
+                "FireKlean gun lube": 1
+            }
+        }
+    },
+    "Generator": {
+        "1": {
+            "items": {
+                "Spark plug": 1
+            }
+        },
+        "2": {
+            "items": {
+                "Bulbex cable cutter": 1,
+                "Phase control relay": 10,
+                "Electric motor": 1,
+                "Bundle of wires": 15
+            } 
+        },
+        "3": {
+            "items": {
+                "Power supply unit": 5,
+                "Phase control relay": 12,
+                "Electric motor": 3,
+                "Spark plug": 16,
+                "Metal spare parts": 10
+            }
+        }
+    },
+    "Hall of Fame": {
+        "1": {
+            "items": {
+                "Insulating tape": 2,
+                "Pack of nails": 5,
+                "Light bulb": 5,
+                "Cat figurine": 1,
+                "Fleece fabric": 5,
+                "Round pliers": 1
+            }
+        },
+        "2": {
+            "items": {
+                "Tech manual": 1,
+                "Pliers Elite": 1,
+                "Toolset": 1,
+                "Golden rooster figurine": 1,
+                "Energy-saving lamp": 10,
+                "Pack of screws": 6,
+                "Duct tape": 3,
+                "Xenomorph sealing foam": 2,
+                "Tube of Poxeram cold welding": 2
+            } 
+        },
+        "3": {
+            "items": {
+                "Set of files Master": 1,
+                "Electric drill": 1,
+                "Bronze lion figurine": 1,
+                "Energy-saving lamp": 15,
+                "KEKTAPE duct tape": 3,
+                "T-Shaped plug": 3,
+                "Metal spare parts": 15,
+                "Power cord": 5
+            }
+        }
+    },
+    "Intelligence Center": {
+        "1": {
+            "items": {
+                "Power cord": 1,
+                "Intelligence folder": 1,
+                "Topographic survey maps": 1,
+                "Factory plan map": 1,
+                "Working LCD": 1
+            }
+        },
+        "2": {
+            "items": {
+                "Intelligence folder": 3,
+                "Secure Flash drive": 3,
+                "Power cord": 7,
+                "Damaged hard drive": 8
+            }
+        },
+        "3": {
+            "items": {
+                "Military cable": 8,
+                "Military COFDM Wireless Signal Transmiter": 2,
+                "Far-forward GPS Signal Amplifier Unit": 1,
+                "VPX Flash Storage Module": 2,
+                "Military Flash drive": 8,
+                "Secure magnetic tape cassette": 2
+            }
+        }
+    },
+    "Lavatory": {
+        "1": {
+            "items": {
+                "Toilet paper": 1,
+                "Toothpaste": 1,
+                "Soap": 1,
+                "Awl": 1
+            }
+        },
+        "2": {
+            "items": {
+                "KEKTAPE duct tape": 3,
+                "Corrugated hose": 6,
+                "Pack of screws": 6,
+                "Electric drill": 1,
+                "Sewing kit": 2
+            }
+        },
+        "3": {
+            "items": {
+                "Xenomorph sealing foam": 6,
+                "Corrugated hose": 10,
+                "Pressure gauge": 2,
+                "Toolset": 1
+            }
+        }
+    },
+    "Medstation": {
+        "1": {
+            "items": {
+                "Disposable syringe": 1,
+                "Pile of meds": 1,
+                "Aseptic bandage": 2,
+                "Bottle of OLOLO Multivitamins": 1
+            }
+        },
+        "2": {
+            "items": {
+                "Bottle of saline solution": 6,
+                "Medical tools": 3,
+                "Medical bloodset": 2,
+                "Esmarch tourniquet": 10
+            }
+        },
+        "3": {
+            "items": {
+                "Ophthalmoscope": 1,
+                "Bottle of saline solution": 4,
+                "LEDX Skin Transilluminator": 1
+            }
+        }
+    },
+    "Nutrition Unit": {
+        "1": {
+            "items": {
+                "Can of white salt": 1,
+                "Power cord": 1,
+                "Phase control relay": 1
+            }
+        },
+        "2": {
+            "items": {
+                "Alkaline cleaner for heat exchangers": 2,
+                "Wrench": 4,
+                "Corrugated hose": 4,
+                "Phase control relay": 3
+            }
+        },
+        "3": {
+            "items": {
+                "Can of Majaica coffee beans": 5,
+                "Pack of sodium bicarbonate": 5,
+                "Smoked Chimney drain cleaner": 2
+            }
+        }
+    },
+    "Scav Case": {
+        "1": {
+            "items": {
+                "Golden rooster figurine": 1,
+                "Lucky Scav Junk Box": 1,
+                "Bottle of Fierce Hatchling moonshine": 3,
+                "Rolar Submariner gold wrist watch": 4,
+                "Golden neck chain": 8,
+                "Gold skull ring": 6,
+                "Bronze lion figurine": 3
+            }
+        }
+    },
+    "Water Collector": {
+        "1": {
+            "items": {
+                "Duct tape": 3,
+                "Screw nuts": 5,
+                "Bolts": 5,
+                "Corrugated hose": 4
+            }
+        },
+        "2": {
+            "items": {
+                "Toolset": 2,
+                "Corrugated hose": 6,
+                "Electric motor": 2,
+                "KEKTAPE duct tape": 5
+            }
+        },
+        "3": {
+            "items": {
+                "Ratchet wrench": 1,
+                "Pliers Elite": 3,
+                "Shustrilo sealing foam": 10
+            }
+        }
+    },
+    "Defective Wall": {
+        "1": {
+            "items": {
+            }
+        },
+        "2": {
+            "items": {
+                "Fleece fabric": 1
+            }
+        },
+        "3": {
+            "items": {
+                "Fleece fabric": 1
+            }
+        },
+        "4": {
+            "items": {
+                "Fierce Blow sledgehammer": 1
+            }
+        },
+        "5": {
+            "items": {
+                "Metal cutting scissors": 1,
+                "Toolset": 1
+            }
+        },
+        "6": {
+            "items": {
+                "Corrugated hose": 2,
+                "Duct tape": 1,
+                "Toolset": 1,
+                "Pliers Elite": 1,
+                "Metal spare parts": 5,
+                "Xenomorph sealing foam": 1,
+                "Bundle of wires": 2,
+                "Light bulb": 2
+            }
+        }
+    },
+    "Gear Rack": {
+        "1": {
+            "items": {
+                "Electric drill": 1,
+                "Sewing kit": 1,
+                "Awl": 1,
+                "Leatherman Multitool": 1,
+                "Bolts": 15,
+                "Fleece fabric": 10,
+                "Energy-saving lamp": 8
+            }
+        },
+        "2": {
+            "items": {
+                "Electric drill": 1,
+                "Duct tape": 5,
+                "Shustrilo sealing foam": 3,
+                "Pack of nails": 8,
+                "Energy-saving lamp": 12,
+                "Aramid fiber fabric": 10,
+                "Wrench": 1
+            }
+        },
+        "3": {
+            "items": {
+                "Body armor repair kit": 1,
+                "Cordura polyamide fabric": 10,
+                "Metal spare parts": 15,
+                "KEKTAPE duct tape": 10,
+                "Energy-saving lamp": 15,
+                "Set of files Master": 1,
+                "Ratchet wrench": 1
+            }
+        }
+    },
+    "Gym": {
+        "1": {
+            "items": {
+                "Toolset": 1,
+                "Electric drill": 1,
+                "Metal cutting scissors": 1,
+                "Screw nuts": 5,
+                "Bolts": 5,
+                "WD-40(100mL)": 1,
+                "Insulating tape": 5
+            }
+        }
+    },
+    "Heating": {
+        "1": {
+            "items": {
+                "Classic matches": 2
+            }
+        },
+        "2": {
+            "items": {
+                "Dry fuel": 5,
+                "Hunting matches": 2,
+                "Crickent lighter": 5
+            }
+        },
+        "3": {
+            "items": {
+                "Military corrugated tube": 2,
+                "Radiator helix": 10,
+                "Bundle of wires": 10,
+                "Phase control relay": 4
+            }
+        }
+    },
+    "Illumination": {
+        "1": {
+            "items": {
+                "Crickent lighter": 1
+            }
+        },
+        "2": {
+            "items": {
+                "Light bulb": 14,
+                "Bundle of wires": 10
+            }
+        },
+        "3": {
+            "items": {
+                "Energy-saving lamp": 12,
+                "Capacitors": 7,
+                "Bundle of wires": 12
+            }
+        }
+    },
+    "Library": {
+        "1": {
+            "items": {
+                "BakeEzy cook book": 1,
+                "Slim diary": 5,
+                "Diary": 5,
+                "Tech manual": 8,
+                "Chainlet": 2,
+                "Horse figurine": 1
+            }
+        }
+    },
+    "Rest Space": {
+        "1": {
+            "items": {
+                "Classic matches": 1,
+                "Duct tape": 1
+            }
+        },
+        "2": {
+            "items": {
+                "Energy-saving lamp": 5,
+                "DVD drive": 1,
+                "Magnet": 1
+            }
+        },
+        "3": {
+            "items": {
+                "GreenBat lithium battery": 4,
+                "Bundle of wires": 10,
+                "Capacitors": 5,
+                "Power cord": 5
+            }
+        }
+    },
+    "Security": {
+        "1": {
+            "items": {
+                "Construction measuring tape": 1
+            }
+        },
+        "2": {
+            "items": {
+                "WD-40(100mL)": 2,
+                "Pliers Elite": 1,
+                "TP-200 TNT brick": 2
+            }
+        },
+        "3": {
+            "items": {
+                "NIXXOR lens": 8,
+                "Working LCD": 2,
+                "Bundle of wires": 10,
+                "SSD drive": 1
+            }
+        }
+    },
+    "Shooting Range": {
+        "1": {
+            "items": {
+                "Metal spare parts": 1,
+                "Bolts": 1,
+                "Pack of screws": 1
+            }
+        },
+        "2": {
+            "items": {
+                "Electric motor": 3,
+                "Construction measuring tape": 1,
+                "Tube of Poxeram cold welding": 3,
+                "Toolset": 1,
+                "Pack of screws": 3,
+                "Electric drill": 1,
+                "Metal spare parts": 8,
+                "WI-FI Camera": 3,
+                "Bundle of wires": 6,
+                "Energy-saving lamp": 6
+            }
+        },
+        "3": {
+            "items": {
+                "Set of files Master": 1,
+                "Bundle of wires": 10,
+                "Printed circuit board": 5,
+                "Metal spare parts": 5,
+                "Capacitors": 5,
+                "Phase control relay": 5,
+                "Power cord": 5,
+                "Leatherman Multitool": 1,
+                "Tech manual": 1
+            }
+        }
+    },
+    "Solar Power": {
+        "1": {
+            "items": {
+                "Phased array element": 6,
+                "Advanced current converter": 1,
+                "Working LCD": 3,
+                "Military cable": 10,
+                "Military power filter": 10
+            }
+        }
+    },
+    "Vents": {
+        "1": {
+            "items": {
+            }
+        },
+        "2": {
+            "items": {
+                "Metal spare parts": 5,
+                "CPU fan": 5,
+                "Car battery": 1,
+                "Electric motor": 1
+            }
+        },
+        "3": {
+            "items": {
+                "Printed circuit board": 5,
+                "Electric motor": 4,
+                "Metal spare parts": 10,
+                "Bundle of wires": 14,
+                "Car battery": 4
+            }
+        }
+    },
+    "Weapon Rack": {
+        "1": {
+            "items": {
+                "Pack of nails": 5,
+                "Energy-saving lamp": 5,
+                "Insulating tape": 5,
+                "Hand drill": 1,
+                "Bolts": 15,
+                "Metal cutting scissors": 1,
+                "Xenomorph sealing foam": 5
+            }
+        },
+        "2": {
+            "items": {
+                "Electric drill": 1,
+                "Set of files Master": 1,
+                "Energy-saving lamp": 10,
+                "Pack of screws": 10,
+                "Duct tape": 10,
+                "Bundle of wires": 10,
+                "Metal spare parts": 10,
+                "Weapon parts": 5,
+                "Tube of Poxeram cold welding": 3
+            }
+        },
+        "3": {
+            "items": {
+                "Electric drill": 1,
+                "Energy-saving lamp": 15,
+                "Metal spare parts": 10,
+                "KEKTAPE duct tape": 5,
+                "Bundle of wires": 15,
+                "Shustrilo sealing foam": 5,
+                "Tech manual": 1,
+                "FireKlean gun lube": 1
+            }
+        }
+    }
+}
