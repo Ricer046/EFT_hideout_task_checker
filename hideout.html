@@ -208,7 +208,7 @@ const item_name_map = {
 }
 
 
-fetch("/hideout.json")
+fetch("hideout.json")
   .then(res => res.json())
   .then(data => {
     renderFilters(data);
@@ -365,7 +365,7 @@ function renderDetails(data) {
                 li.dataset.amount = amount;
 
                 const jp = item_name_map[item]?.name || item;
-                const img = item_name_map[item]?.img || "/noimage.png";
+                const img = item_name_map[item]?.img || "noimage.png";
                 
                 li.innerHTML = `
                     <img src="${img}" class="item-icon">
