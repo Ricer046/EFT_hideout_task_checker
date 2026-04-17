@@ -45,19 +45,76 @@
     </div>
 
     <div>
-        <strong>トレーダー</strong><br>
-        <label><input type="checkbox" class="filter-trader" value="Prapor"> Prapor</label>
-        <label><input type="checkbox" class="filter-trader" value="Therapist"> Therapist</label>
-        <label><input type="checkbox" class="filter-trader" value="Skier"> Skier</label>
-        <label><input type="checkbox" class="filter-trader" value="Peacekeeper"> Peacekeeper</label>
-        <label><input type="checkbox" class="filter-trader" value="Mechanic"> Mechanic</label>
-        <label><input type="checkbox" class="filter-trader" value="Jaeger"> Jaeger</label>
-        <label><input type="checkbox" class="filter-trader" value="Ragman"> Ragman</label>
-        <label><input type="checkbox" class="filter-trader" value="Fence"> Fence</label>
-        <label><input type="checkbox" class="filter-trader" value="Ref"> Ref</label>
-        <label><input type="checkbox" class="filter-trader" value="Lightkeeper"> Lightkeeper</label>
-        <label><input type="checkbox" class="filter-trader" value="BTR Driver"> BTR Driver</label>
+    <strong>トレーダー</strong><br>
+
+    <div class="trader-card" data-target="trader_Prapor">
+        <img src="https://tarkov.dev/images/traders/prapor-icon.png">
+        <span>Prapor</span>
     </div>
+    <input type="checkbox" id="trader_Prapor" class="filter-trader trader-checkbox" value="Prapor">
+
+    <div class="trader-card" data-target="trader_Therapist">
+        <img src="https://tarkov.dev/images/traders/therapist-icon.png">
+        <span>Therapist</span>
+    </div>
+    <input type="checkbox" id="trader_Therapist" class="filter-trader trader-checkbox" value="Therapist">
+
+    <div class="trader-card" data-target="trader_Skier">
+        <img src="https://tarkov.dev/images/traders/skier-icon.png">
+        <span>Skier</span>
+    </div>
+    <input type="checkbox" id="trader_Skier" class="filter-trader trader-checkbox" value="Skier">
+
+    <div class="trader-card" data-target="trader_Peacekeeper">
+        <img src="https://tarkov.dev/images/traders/peacekeeper-icon.png">
+        <span>Peacekeeper</span>
+    </div>
+    <input type="checkbox" id="trader_Peacekeeper" class="filter-trader trader-checkbox" value="Peacekeeper">
+
+    <div class="trader-card" data-target="trader_Mechanic">
+        <img src="https://tarkov.dev/images/traders/mechanic-icon.png">
+        <span>Mechanic</span>
+    </div>
+    <input type="checkbox" id="trader_Mechanic" class="filter-trader trader-checkbox" value="Mechanic">
+
+    <div class="trader-card" data-target="trader_Jaeger">
+        <img src="https://tarkov.dev/images/traders/jaeger-icon.png">
+        <span>Jaeger</span>
+    </div>
+    <input type="checkbox" id="trader_Jaeger" class="filter-trader trader-checkbox" value="Jaeger">
+
+    <div class="trader-card" data-target="trader_Ragman">
+        <img src="https://tarkov.dev/images/traders/ragman-icon.png">
+        <span>Ragman</span>
+    </div>
+    <input type="checkbox" id="trader_Ragman" class="filter-trader trader-checkbox" value="Ragman">
+
+    <div class="trader-card" data-target="trader_Fence">
+        <img src="https://tarkov.dev/images/traders/fence-icon.jpg">
+        <span>Fence</span>
+    </div>
+    <input type="checkbox" id="trader_Fence" class="filter-trader trader-checkbox" value="Fence">
+
+    <div class="trader-card" data-target="trader_Ref">
+        <img src="https://tarkov.dev/images/traders/ref-icon.jpg">
+        <span>Ref</span>
+    </div>
+    <input type="checkbox" id="trader_Ref" class="filter-trader trader-checkbox" value="Ref">
+
+    <div class="trader-card" data-target="trader_Lightkeeper">
+        <img src="https://tarkov.dev/images/traders/lightkeeper-icon.jpg">
+        <span>Lightkeeper</span>
+    </div>
+    <input type="checkbox" id="trader_Lightkeeper" class="filter-trader trader-checkbox" value="Lightkeeper">
+
+    <div class="trader-card" data-target="trader_BTR_Driver">
+        <img src="https://tarkov.dev/images/traders/btr-driver-icon.jpg">
+        <span>BTR Driver</span>
+    </div>
+    <input type="checkbox" id="trader_BTR_Driver" class="filter-trader trader-checkbox" value="BTR Driver">
+
+</div>
+
 
     <div>
         <strong>タイプ</strong><br>
@@ -304,6 +361,20 @@ document.getElementById("task-list").addEventListener("change", (e) => {
 
     localStorage.setItem("completedTasks", JSON.stringify(completed));
     render();
+});
+
+//トレーダーアイコン
+document.querySelectorAll('.trader-card').forEach(card => {
+    card.addEventListener('click', () => {
+        const target = card.dataset.target;
+        const checkbox = document.getElementById(target);
+
+        checkbox.checked = !checkbox.checked;
+
+        card.classList.toggle('active', checkbox.checked);
+
+        applyFilters();
+    });
 });
 
 // --- タスク一覧を描画 ---
