@@ -10,6 +10,34 @@
             padding: 8px;
             border-bottom: 1px solid #ccc;
         }
+
+        .trader-checkbox {
+        display: none;
+        }
+
+        .trader-card {
+            width: 80px;
+            padding: 6px;
+            border-radius: 6px;
+            border: 1px solid #444;
+            background: #222;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            margin: 4px;
+            transition: 0.2s;
+        }
+
+        .trader-card img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        .trader-card.active {
+            border-color: #4caf50;
+            background: #2e4;
+        }
     </style>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
