@@ -50,15 +50,18 @@
 }
 
 .trader-card {
-    width: 200px;
-    height: 200px;
+    width: 120px;          
+    height: 150px;         
     padding: 6px;
     border-radius: 6px;
     border: 1px solid #444;
     background: #222;
     cursor: pointer;
     text-align: center;
-    display: inline-block;
+    display: inline-flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 4px;
     transition: 0.2s;
 }
