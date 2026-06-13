@@ -75,71 +75,71 @@
     <div>
     <strong>トレーダー</strong><br>
 
-    <div class="trader-card" data-target="trader_Prapor">
+    <div class="trader-card" data-target="trader_prapor">
         <img src="https://tarkov.dev/images/traders/prapor-portrait.png">
         <span>Prapor</span>
     </div>
-    <input type="checkbox" id="trader_Prapor" class="filter-trader trader-checkbox" value="Prapor">
+    <input type="checkbox" id="trader_prapor" class="filter-trader trader-checkbox" value="Prapor">
 
-    <div class="trader-card" data-target="trader_Therapist">
+    <div class="trader-card" data-target="trader_therapist">
         <img src="https://tarkov.dev/images/traders/therapist-portrait.png">
         <span>Therapist</span>
     </div>
-    <input type="checkbox" id="trader_Therapist" class="filter-trader trader-checkbox" value="Therapist">
+    <input type="checkbox" id="trader_therapist" class="filter-trader trader-checkbox" value="Therapist">
 
-    <div class="trader-card" data-target="trader_Skier">
+    <div class="trader-card" data-target="trader_skier">
         <img src="https://tarkov.dev/images/traders/skier-portrait.png">
         <span>Skier</span>
     </div>
-    <input type="checkbox" id="trader_Skier" class="filter-trader trader-checkbox" value="Skier">
+    <input type="checkbox" id="trader_skier" class="filter-trader trader-checkbox" value="Skier">
 
-    <div class="trader-card" data-target="trader_Peacekeeper">
+    <div class="trader-card" data-target="trader_peacekeeper">
         <img src="https://tarkov.dev/images/traders/peacekeeper-portrait.png">
         <span>Peacekeeper</span>
     </div>
-    <input type="checkbox" id="trader_Peacekeeper" class="filter-trader trader-checkbox" value="Peacekeeper">
+    <input type="checkbox" id="trader_peacekeeper" class="filter-trader trader-checkbox" value="Peacekeeper">
 
-    <div class="trader-card" data-target="trader_Mechanic">
+    <div class="trader-card" data-target="trader_mechanic">
         <img src="https://tarkov.dev/images/traders/mechanic-portrait.png">
         <span>Mechanic</span>
     </div>
-    <input type="checkbox" id="trader_Mechanic" class="filter-trader trader-checkbox" value="Mechanic">
+    <input type="checkbox" id="trader_mechanic" class="filter-trader trader-checkbox" value="Mechanic">
 
-    <div class="trader-card" data-target="trader_Jaeger">
+    <div class="trader-card" data-target="trader_jaeger">
         <img src="https://tarkov.dev/images/traders/jaeger-portrait.png">
         <span>Jaeger</span>
     </div>
-    <input type="checkbox" id="trader_Jaeger" class="filter-trader trader-checkbox" value="Jaeger">
+    <input type="checkbox" id="trader_jaeger" class="filter-trader trader-checkbox" value="Jaeger">
 
-    <div class="trader-card" data-target="trader_Ragman">
+    <div class="trader-card" data-target="trader_ragman">
         <img src="https://tarkov.dev/images/traders/ragman-portrait.png">
         <span>Ragman</span>
     </div>
-    <input type="checkbox" id="trader_Ragman" class="filter-trader trader-checkbox" value="Ragman">
+    <input type="checkbox" id="trader_ragman" class="filter-trader trader-checkbox" value="Ragman">
 
-    <div class="trader-card" data-target="trader_Fence">
+    <div class="trader-card" data-target="trader_fence">
         <img src="https://cdn.wikiwiki.jp/to/w/eft/img/::ref/FenceFullRes.png.webp?rev=3c7ba28cc194b25a9820d940377f2d99&t=20220501153624">
         <span>Fence</span>
     </div>
-    <input type="checkbox" id="trader_Fence" class="filter-trader trader-checkbox" value="Fence">
+    <input type="checkbox" id="trader_fence" class="filter-trader trader-checkbox" value="Fence">
 
-    <div class="trader-card" data-target="trader_Ref">
+    <div class="trader-card" data-target="trader_ref">
         <img src="https://cdn.wikiwiki.jp/to/w/eft/Ref/::attach/ref.jpg?rev=edefe2d274ddf6a7dc306c785e7595a2&t=20240911040318">
         <span>Ref</span>
     </div>
-    <input type="checkbox" id="trader_Ref" class="filter-trader trader-checkbox" value="Ref">
+    <input type="checkbox" id="trader_ref" class="filter-trader trader-checkbox" value="Ref">
 
-    <div class="trader-card" data-target="trader_Lightkeeper">
+    <div class="trader-card" data-target="trader_lightkeeper">
         <img src="https://tarkov.dev/images/traders/lightkeeper-icon.jpg">
         <span>Lightkeeper</span>
     </div>
-    <input type="checkbox" id="trader_Lightkeeper" class="filter-trader trader-checkbox" value="Lightkeeper">
+    <input type="checkbox" id="trader_lightkeeper" class="filter-trader trader-checkbox" value="Lightkeeper">
 
-    <div class="trader-card" data-target="trader_BTR_Driver">
+    <div class="trader-card" data-target="trader_btr_driver">
         <img src="https://tarkov.dev/images/traders/btr-driver-icon.jpg">
         <span>BTR Driver</span>
     </div>
-    <input type="checkbox" id="trader_BTR_Driver" class="filter-trader trader-checkbox" value="BTR Driver">
+    <input type="checkbox" id="trader_btr_driver" class="filter-trader trader-checkbox" value="BTR Driver">
 
 </div>
 
@@ -401,7 +401,7 @@ document.querySelectorAll('.trader-card').forEach(card => {
 
         card.classList.toggle('active', checkbox.checked);
 
-        applyFilters();
+        render();
     });
 });
 
